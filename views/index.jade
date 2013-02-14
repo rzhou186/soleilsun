@@ -1,5 +1,33 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  .container
+    
+    .hero-unit
+      h1.heading.pull-center.heading-1 Hi Eve.
+      h3.heading.pull-center.heading-2 Happy Valentine's Day!
+      p.pull-center.pull-center-1
+        | I built this website as a gallery for your beautiful artwork, and as a lasting
+        | hub for our memories together. Thanks for always being so wonderful!
+
+    button.btn.btn-primary.btn-large.disabled Upload New Images
+
+    .gallery
+      #galleria
+        img(src='/images/artwork/01.jpg')
+        img(src='/images/artwork/02.jpg')
+        img(src='/images/artwork/03.jpg')
+        img(src='/images/artwork/04.jpg')
+        img(src='/images/artwork/05.jpg')
+        img(src='/images/artwork/06.jpg')
+        img(src='/images/artwork/07.jpg')
+        img(src='/images/artwork/08.jpg')
+        img(src='/images/artwork/09.jpg')
+        img(src='/images/artwork/10.jpg')
+        img(src='/images/artwork/11.jpg')
+        img(src='/images/artwork/12.jpg')
+        img(src='/images/artwork/13.jpg')
+        img(src='/images/artwork/14.jpg')
+      .loading
+        img(src='/images/loading.gif')
