@@ -49,6 +49,7 @@ body .pull-center {
 .container .gallery {
   text-align: center;
   padding: 10px;
+  margin-bottom: 40px;
   background-color: rgba(255,255,255,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
